@@ -1,0 +1,16 @@
+Package: OlympicWeather
+Type: Package
+Title: Previsions meteorologiques en temps reel
+Version: 0.1.0
+Author: Jasmine Dupau
+Maintainer: Jasmine Dupau <jasmine.dupau@gmail.com>
+Description: Nous avons des informations sur la temperature ressentie et celle attendue, des chances de pluie et de la quantite de pluie observee.  
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    httr2,
+    jsonlite,
+    tibble,
+    tidygeocoder
+RoxygenNote: 7.3.1
